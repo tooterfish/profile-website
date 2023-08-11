@@ -58,8 +58,10 @@
 
 .code {
   margin-top: auto;
+  margin-bottom: 4px;
   padding: 4px;
-  background-color: var(--main-hl-color)
+  background-color: var(--main-hl-color);
+  font-family: monospace;
 }
 
 .tech-container {

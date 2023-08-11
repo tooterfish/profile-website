@@ -19,7 +19,7 @@ export default function ProjectCard({project, i}) {
       <div className={'image'}></div>
       <div className={'description'}>{description}</div>
       <div className={'foot'}>
-        {code ? <div className={'code'}><a href={code}>code</a></div> : ''}
+        {code ? <div className={'code'}><a href={code}>{'<CODE/>'}</a></div> : ''}
         <div className={'tech-container'}>{tech.map((tech, i) => <div key={i} className={'tech'}>{tech}</div>)}</div>
       </div>
     </div>
