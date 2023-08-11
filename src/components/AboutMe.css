@@ -1,0 +1,9 @@
+p {
+  margin: 4px;
+  padding: 4px;
+  background-color: var(--main-hl-color)
+}
+
+h1, h2, h3, h4 {
+  margin: 4px;
+}

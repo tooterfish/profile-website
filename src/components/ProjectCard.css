@@ -59,7 +59,7 @@
 .code {
   margin-top: auto;
   padding: 4px;
-  background-color: whitesmoke;
+  background-color: var(--main-hl-color)
 }
 
 .tech-container {
@@ -73,6 +73,7 @@
 
 .tech {
   margin-left: 4px;
+  margin-bottom: 4px;
   padding: 4px;
-  background-color: whitesmoke;
+  background-color: var(--main-hl-color)
 }
