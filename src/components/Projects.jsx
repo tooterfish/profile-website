@@ -6,8 +6,11 @@ export default function() {
   return (<>
     <h1>Projects</h1>
     <h3>Behold, my stuff!</h3>
-    <div className={'project-container'}>
+    <div className='projects-outer-container'>
+
+    <div className={'projects-inner-container'}>
       {projectList.map((projectId, i) => <ProjectCard key={i} i={i} project={projectData[projectId]}/>)}
+    </div>
     </div>
   </>)
 }

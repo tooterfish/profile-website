@@ -6,4 +6,7 @@
 
 :root {
   --main-hl-color: lightgrey;
+
+  --project-card-width: 360px;
+  --project-card-height: 360px;
 }
