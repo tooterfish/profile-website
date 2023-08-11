@@ -16,7 +16,7 @@
   }
 
   &.unfaded {
-    animation: unfade .5s, shake .5s;
+    animation: unfade .3s;
   }
 }
 
@@ -58,6 +58,8 @@
 
 .code {
   margin-top: auto;
+  padding: 4px;
+  background-color: whitesmoke;
 }
 
 .tech-container {

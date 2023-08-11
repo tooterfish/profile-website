@@ -7,7 +7,7 @@ export default function ProjectCard({project, i}) {
   const [faded, setFaded] = useState('faded')
 
   useEffect(() => {
-    setTimeout(() => {setFaded('unfaded')}, 250*i)
+    setTimeout(() => {setFaded('unfaded')}, 100*i)
   }, [])
 
   return (<>
